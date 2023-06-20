@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>DICE GAME</h1>
+
+            <div class="dice-box">
+
+                <div class="dice d1">
+                    <span class="rounds s1"></span>
+                </div>
+                <div class="dice d2">
+                    <span class="rounds s1"></span>
+                    <span class="rounds s2"></span>
+                </div>
+                <div class="dice d3">
+                    <span class="rounds s1"></span>
+                    <span class="rounds s2"></span>
+                    <span class="rounds s3"></span>
+                </div>
+                <div class="dice d4">
+                    <span class="rounds s1"></span>
+                    <span class="rounds s2"></span>
+                    <span class="rounds s3"></span>
+                    <span class="rounds s4"></span>
+                </div>
+                <div class="dice d5">
+                    <span class="rounds s1"></span>
+                    <span class="rounds s2"></span>
+                    <span class="rounds s3"></span>
+                    <span class="rounds s4"></span>
+                    <span class="rounds s5"></span>
+                </div>
+                <div class="dice d6">
+                    <span class="rounds s1"></span>
+                    <span class="rounds s2"></span>
+                    <span class="rounds s3"></span>
+                    <span class="rounds s4"></span>
+                    <span class="rounds s5"></span>
+                    <span class="rounds s6"></span>
+                </div>
+            </div>
+            <div class="score">
+                <P id="plyer-name">Player 1</P>
+                <p>ATTEMPT: <span id="attempt">0</span> </p>
+                <p>WIN: <span id="win">0</span> </p>
+                <p>RATIO: <span id="ratio">0%</span> </p>
+            </div>
+
+
+            <div>
+                <p class="msg">Click</p>
+            </div>
+
+
+
+            <div class="button">
+
+                <button onclick="diceRoll(1)" id="bt1" class="btn"> <img src="./images/dice-six-faces-one.png"
+                        alt="dice-one"> </button>
+                <button onclick="diceRoll(2)" id="bt2" class="btn"> <img src="./images/dice-six-faces-two.png"
+                        alt="dice-two"> </button>
+                <button onclick="diceRoll(3)" id="bt3" class="btn"> <img src="./images/dice-six-faces-three.png"
+                        alt="dice-three"> </button>
+                <button onclick="diceRoll(4)" id="bt4" class="btn"> <img src="./images/dice-six-faces-four.png"
+                        alt="dice-four"> </button>
+                <button onclick="diceRoll(5)" id="bt5" class="btn"> <img src="./images/dice-six-faces-five.png"
+                        alt="dice-five"> </button>
+                <button onclick="diceRoll(6)" id="bt6" class="btn"> <img src="./images/dice-six-faces-six.png"
+                        alt="dice-six"> </button>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
